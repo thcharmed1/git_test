@@ -19,3 +19,35 @@ header{
     border-bottom: groove;
     border-color: blue;
 }
+menu{
+    display:contents;
+    list-style: none;
+    padding: 0%;
+    width: 400px;
+
+}
+li{
+    flex-grow: 1;
+}
+button{
+    width: 100% ;
+}
+html{
+    display:-webkit-flex;
+}
+ol,ul{
+    counter-increment: increment 1.2;
+  
+
+    list-style-position:inside ;
+    list-style-position: unset;
+}
+dd{
+    margin: left 40px; 
+    
+}
+h6{
+    font-size:large;
+    border-bottom-style: double;
+    border-bottom-width: 25px;
+}
