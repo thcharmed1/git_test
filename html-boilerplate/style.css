@@ -1,5 +1,30 @@
-.container{
-    background-color: yellow;
-    color: red;
-    font-size: x-large
+.para{
+    font-weight: bolder;
+    font-size: 36px;
+
+}
+.para.small-para{
+    font-size:24px ;
+}
+.button.confirm{
+    background-color:darkgreen;
+    height: 35px;
+    width:100px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.button.cancel{
+    font-size: large;
+    height: 35px;
+    width: 100px;
+font-weight: lighter;
+}
+.text{
+    font-weight: lighter;
+    font-size: 40px;
+}
+.text.child{
+    font-size: small;
+    font-weight: 800;
 }
