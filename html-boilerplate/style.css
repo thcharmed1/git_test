@@ -1,3 +1,11 @@
+html{
+    background-image: url(../odin-links-and-images/images/dog.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    padding: 200px;
+    background-position: center;
+}
+
 .container{
     background-color: rgb(0, 140, 255);
     border-style: solid;
@@ -17,6 +25,21 @@ margin-top: 1.5cm;
 margin-left:2.4cm;
 background-color: darksalmon;
 
-
+}
+/* MUST BE IN THIS ORDER!! */
+a:link{
+    color:blue
+}
+a:visited{
+    color:blueviolet
+}
+/* focus will show up if someone is tabbing text bc of accessibility */
+a:hover,
+a:focus{
+    color: green;
+ font-size: large;
 }
 
+a:active{
+    color:black
+}
