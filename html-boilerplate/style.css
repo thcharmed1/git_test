@@ -1,51 +1,21 @@
-body{
-    background-color: lightgrey;
-    padding:50px;
-    height: 300px;
-}
-.card{
-    background-color: white;
-padding-left: 20px;
-padding-top: 2px;
-width:600px;
-height:350px;
-}
 
-.title{
-    background-color: lightskyblue;
-    font-weight: bolder;
+.container{
+border-style: solid;
+border: red;
+    background-color: blue;
     color:black;
-    width:580px;
-    height:auto;
-    margin-bottom: 20px;
-    font-size: 36px;
-
-}
-.content{
-    background-color: lightskyblue;
-    width: 580px;
-    height: auto;
-    margin-top: 20px;
-    font-size: 36px;
-}
-
-.button-container{
-background-color: lightskyblue;
-width: 480px;
-height: auto;
-margin-top: 20px;
-font-size: 30px;
-padding-left: 100px;
-text-align: center;
-padding-bottom: 60px;
-}
-
-button{
-    position: relative;bottom: -30px;left:-110px;
-    background-color: white;
-    font-size: large;
     text-align: center;
-    margin: 0px;
+    width: 400px;
+    height:300px;
+display: flex;
     
+}
+.box{
+    border-style: solid;
+    border-color: black;
+    background-color: red;
+   
+    margin:auto;
+    width: 100px;
 
 }
