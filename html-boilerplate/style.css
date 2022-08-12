@@ -1,46 +1,92 @@
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-
-.header{
-    display: flex;
-    background-color: lightgoldenrodyellow;
-    width:1000px
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Besley, serif;
 }
- 
 
-.logo{
-    background-color: white;
-    color:red;
-    font-weight: bold;
-margin:auto 350px;
-    width:50px;
-    height:50px;
+.header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display:flex;
+}
 
+.profile-image {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
 }
-.left-links{
-margin:auto -60px;
-}
-.right-links{
-    margin: auto -130px;
-}
-ul{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
 
-   
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+  flex: 0;
+  margin-left: 8px;
+  align-content: flex-start;
 }
-  li{
- 
-    border-style: solid;
-    border-color: white;
-
-  }
+.links{
   
+ 
+    margin-right: 16px;
+    flex:1;
+    justify-content: start;
+  flex-basis:content;
 
-a:link{ 
-    margin-left: 20px;
-  background-color: white;
-    color: blue;
-    text-decoration: none;
-   
+  
+}
+button {
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  padding: 8px 24px;
+align-content: flex-end;
+  margin-top: 11px;
+  margin-right: 8px;
+  margin-left: 16px;
+flex-grow: inherit;
+  margin-bottom: 24px;
+
+
+}
+.profile-image{
+  margin-top: 6px;
+}
+a {
+  /* this removes the 
+  
+  line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+  align-content: flex-end;
+
+
+ 
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+
+
+
+ 
+}
+.one{
+  margin-right: 8px;
+
+}
+.two{
+  margin-right: 8px;
+}
+.three{
+  margin-right: 8px;
 }
