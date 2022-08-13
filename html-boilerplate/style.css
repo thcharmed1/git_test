@@ -1,92 +1,53 @@
-/* this is some magical font-importing.  
-you'll learn about it later. */
-@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-body {
+
+* {
   margin: 0;
-  background: #eee;
-  font-family: Besley, serif;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.header {
-  background: white;
-  border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+.left{
+margin-left:auto -14.15%;
+}
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
   display:flex;
+justify-content: space-around;
 }
 
-.profile-image {
-  background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-}
-
-.logo {
-  color: rebeccapurple;
-  font-size: 32px;
-  font-weight: 900;
-  font-style: italic;
-  flex: 0;
-  margin-left: 8px;
-  align-content: flex-start;
-}
-.links{
-  
+.menu {
  
-    margin-right: 16px;
-    flex:1;
-    justify-content: start;
-  flex-basis:content;
-
-  
-}
-button {
-  border: none;
-  border-radius: 8px;
-  background: rebeccapurple;
-  color: white;
-  padding: 8px 24px;
-align-content: flex-end;
-  margin-top: 11px;
-  margin-right: 8px;
-  margin-left: 16px;
-flex-grow: inherit;
-  margin-bottom: 24px;
-
-
-}
-.profile-image{
-  margin-top: 6px;
-}
-a {
-  /* this removes the 
-  
-  line under our links */
-  text-decoration: none;
-  color: rebeccapurple;
-  align-content: flex-end;
-
-
- 
-}
-
-ul {
-  list-style-type: none;
+  width: 900px;
   display: flex;
+  justify-content: space-between;
 
+}
+.right{
+  justify-content: space-evenly;
+  display: flex;
+  gap:1rem;
 
+}
 
  
-}
-.one{
-  margin-right: 8px;
+
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height:300px;
+width:900px;
+
 
 }
-.two{
-  margin-right: 8px;
+.header-container{
+  color: #5995DA;
+  background-color: #D6E9FE;
+
+  justify-content: center;
+display:flex;
 }
-.three{
-  margin-right: 8px;
+.photo-grid-container{
+  display: flex;
 }
