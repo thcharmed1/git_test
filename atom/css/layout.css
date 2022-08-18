@@ -1,11 +1,13 @@
 body{
     margin:0;
     padding:0;
+    overflow: hidden;
 }
 .header{
+    position:fixed;
     display: flex;
     width:100%;
-    border: solid 2px black;
+
  
 }
 .header ul{
@@ -22,7 +24,7 @@ padding-right: 20px;
 .content{
     width: 100%;
     height:500px ;
-    border: 2px solid black;
+ 
    flex-direction: column;
    align-items: center;
   justify-items: center;
@@ -46,6 +48,9 @@ height: 200px;
     width:550px;
     height: auto;
     align-self: center;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    
 }
 
  a:link {
@@ -67,24 +72,23 @@ height: 200px;
 }
 
 .footer{
-    display: flex;
-    width: 100%;
+display: flex;
+position: fixed;
+margin-top: 18%;
+width: 100vw;
+background-color: #eeeeee;
+
 }
+
 .footer ul{
-    display: flex;
+display: flex;
+list-style-type: none;
+gap:1rem;
 }
+
 .footer .right-links{
-    display: flex;
- justify-items: flex-end; 
-
-
-}
-
-.footer li{
-    list-style-type: none;
-    ,
- 
-}
-.right-links li{
-  
+   justify-items: flex-end;
+   display: flex;
+   gap:1rem;
+   width: 100%;
 }
